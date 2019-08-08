@@ -5,7 +5,7 @@ import vk "github.com/vulkan-go/vulkan"
 type VulkanMode uint32
 
 const (
-	VulkanNone VulkanMode = (1 << iota) >> 1
+	VulkanNone VulkanMode = iota
 	VulkanCompute
 	VulkanGraphics
 	VulkanPresent
