@@ -1,6 +1,6 @@
 package asche
 
-import lin "github.com/xlab/linmath"
+import lin "github.com/mojzesh/linmath"
 
 // VulkanProjectionMat converts an OpenGL style projection matrix to Vulkan style projection matrix.
 // Vulkan has a topLeft clipSpace with [0, 1] depth range instead of [-1, 1].
